@@ -19,13 +19,14 @@ body {
 h1 {
   margin-top: 40px;
   text-align: center;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 p {
   font-size: 16px;
   margin-bottom: 16px;
+  max-width: 400px;
 }
 
 h2 {
@@ -46,10 +47,12 @@ h3 {
 
 .imagery{
     width: 100%;
-    margin: 0 0 32px 0;
+    margin: 0 0 40px 0;
     padding: 24px;
     box-sizing: border-box;
     border: 3px solid #EEA841;
+    max-width: 400px;
+    max-height: 455px;
 
 }
 
@@ -62,12 +65,14 @@ h3 {
 
 .picture {
     width: 100%;
-    max-width: 100%;
+    max-width: 346px;
+    max-height: 346px;
 
 
 }
 .grid-wrapper {
   display: block;
+
 }
 
 .address-item {
@@ -101,6 +106,6 @@ li {
     }
 
     .container{
-        max-width: 1200px;
+        max-width: 1000px;
     }
 }
